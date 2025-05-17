@@ -1,10 +1,5 @@
-function main(): void {
-  const projectName = "support.ai";
-  welcome(projectName);
-}
+const button = document.getElementById("enable-button")!;
 
-function welcome(name: string) {
-  return "Hello, " + name.toLowerCase();
-}
-
-main();
+button.addEventListener("click", () => {
+  window.supportAI.enableAutoReply();
+});
