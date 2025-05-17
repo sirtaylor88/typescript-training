@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // allows to use import syntax with CommonJS modules
+    "esModuleInterop": true,
+    // allow all the browser APIs if you're writing front-end code.
+    "lib": ["esnext", "dom", "dom.iterable"],
+    // will consider everything to be a module
+    "moduleDetection": "force",
+    // adds undefined to the type of any indexed access,
+    // which can prevent some runtime errors
+    "noUncheckedIndexedAccess": true,
+    // skips type checking of all declaration files
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    // forces to import and export types using the import type syntax
+    "verbatimModuleSyntax": true
+  }
+}
