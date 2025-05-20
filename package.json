@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sirtaylor88/typescript-training/issues"
   },
-  "homepage": "https://github.com/sirtaylor88/typescript-training#readme"
+  "homepage": "https://github.com/sirtaylor88/typescript-training#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
